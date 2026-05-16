@@ -23,11 +23,6 @@ const skillCategories = [
     title: "DevOps & Tools",
     icon: <Wrench className="w-6 h-6" />,
     skills: ["Jenkins", "CI/CD", "Basic Git"]
-  },
-  {
-    title: "Methodologies",
-    icon: <Server className="w-6 h-6" />,
-    skills: ["SDLC", "Agile", "SCRUM"]
   }
 ];
 
