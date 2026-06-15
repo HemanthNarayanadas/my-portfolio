@@ -63,7 +63,7 @@ export default function Hero() {
 
           <div className="flex flex-col sm:flex-row justify-center items-center gap-4">
             <a 
-              href="https://drive.google.com/file/d/16AOeznSPqN3JXps7RQicrs0xD58kcJnT/view?usp=sharing" 
+              href="https://drive.google.com/file/d/16AOeznSPqN3JXps7RQicrs0xD58kcJnT/view?usp=drive_link" 
               target="_blank" 
               rel="noopener noreferrer"
               className="px-8 py-4 bg-blue-600 hover:bg-blue-700 text-white rounded-full font-medium transition-all flex items-center gap-2 transform hover:scale-105"

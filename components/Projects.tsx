@@ -7,6 +7,15 @@ import { FaGithub } from "react-icons/fa";
 
 const projects = [
   {
+    title: "School Management ERP System",
+    description: "Developed a comprehensive School Management ERP platform featuring multi-role authentication (Principal, Teacher, Student, Parent), attendance management, academic tracking, and responsive performance analytics dashboards.",
+    impact: "Designed a responsive school website CMS, implemented secure RBAC authentication, and built student performance analytics dashboards.",
+    image: "/project_erp.png",
+    tags: ["Next.js", "React.js", "Tailwind CSS", "Node.js", "Express.js", "PostgreSQL", "JWT"],
+    github: "https://github.com/HemanthNarayanadas/school-erp",
+    demo: "#"
+  },
+  {
     title: "Smart Quiz & Performance Analytics System",
     description: "A web-based application allowing users to take quizzes, receive instant score evaluations, and analyze performance through accuracy, percentage, and progress tracking.",
     impact: "Implemented secure database connectivity, responsive UI design, and automated performance insights.",
@@ -35,7 +44,7 @@ export default function Projects() {
           <div className="w-20 h-1 bg-sky-500 mx-auto rounded-full"></div>
         </div>
 
-        <div className="grid grid-cols-1 md:grid-cols-2 gap-10">
+        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-10">
           {projects.map((project, index) => (
             <motion.div
               key={index}
